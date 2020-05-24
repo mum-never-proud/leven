@@ -1,0 +1,32 @@
+{
+  "name": "leven",
+  "version": "1.0.0",
+  "description": "js implementation of Levenshtein distance or minimum edit distance",
+  "main": "leven.js",
+  "scripts": {
+    "build": "parcel build leven.js --global leven",
+    "dev": "parcel watch leven.js --global leven",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mum-never-proud/leven.git"
+  },
+  "keywords": [
+    "leven",
+    "levenshtein",
+    "minimum",
+    "distance",
+    "edit"
+  ],
+  "author": "mum-never-proud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mum-never-proud/leven/issues"
+  },
+  "homepage": "https://github.com/mum-never-proud/leven#readme",
+  "devDependencies": {
+    "jest": "26.0.1",
+    "parcel": "1.12.4"
+  }
+}
