@@ -28,7 +28,7 @@ module.exports = function(a, b) {
 
   for (let i = 1; i < b.length; i++) {
     for (let j = 1; j < a.length; j++) {
-      const replaceCost = a[j - 1] === b[j - 1] ? 0 : 1;
+      const replaceCost = a[j - 1] === b[i - 1] ? 0 : 1;
 
       distanceMatrix[i][j] = Math.min(
         distanceMatrix[i][j - 1] + 1, // insertion
